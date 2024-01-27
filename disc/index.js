@@ -25,7 +25,7 @@ const showResultUI = (singleUser) => {
     </div>
     `);
 };
-// subscribe to thapa technical
+
 function fetchUserData(url) {
     myCustomFetcher(url, {}).then((userInfo) => {
         for (const singleUser of userInfo) {
