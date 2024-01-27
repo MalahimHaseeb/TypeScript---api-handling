@@ -20,7 +20,10 @@ a {
   font-size: 1.2rem;
   color: white;
 }
-
+.changeFont {
+  color: white;
+  font-size: large;
+}
 section {
   width: 80%;
   margin: 0 auto;
